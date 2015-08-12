@@ -12,7 +12,7 @@ body { width: 87.5%;
        margin-right: auto;
        padding-left: 12.5%;
        font-family: ETBembo, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-       background-color: #fffff8;
+       background-color: #FFFAF0;
        color: #111;
        max-width: 1400px;
        counter-reset: sidenote-counter; }
@@ -82,7 +82,7 @@ table.booktabs { width: auto;
 
 .booktabs th.nocmid { border-bottom: none; }
 
-.booktabs tbody tr:first-child td { padding-top: 0.65ex; } /* add space between thead row and tbody */ 
+.booktabs tbody tr:first-child td { padding-top: 0.65ex; } /* add space between thead row and tbody */
 
 .booktabs td { padding-left: 0.5em;
                padding-right: 0.5em;
@@ -159,7 +159,7 @@ img { max-width: 100%; }
                                            vertical-align: baseline;
                                            color: #f00000; }
 
-.sidenote-number:after { content: counter(sidenote-counter); 
+.sidenote-number:after { content: counter(sidenote-counter);
                          font-size: 0.9rem;
                          top: -0.4rem; }
 
