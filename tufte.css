@@ -37,21 +37,19 @@ h3 { font-style: italic;
      margin-bottom: 0;
      line-height: 1; }
 
-subtitle { font-style: italic;
-           margin-top: 1rem;
-           margin-bottom: 1rem;
-           font-size: 1.8rem;
-           display: block;
-           line-height: 1; }
+p.subtitle { font-style: italic;
+             margin-top: 1rem;
+             margin-bottom: 1rem;
+             font-size: 1.8rem;
+             display: block;
+             line-height: 1; }
 
-table { width: 53%;
+table { width: 98%;
+        clear: left;
         text-align: right;
         font-size: 1.2rem;
         line-height: 1.4;
-        margin-top: 1.4rem;
-        margin-bottom: 1.4rem;
-        margin-left: 1%;
-        margin-right: 1%;
+        margin: 1.4rem 1%;
         border-collapse: separate;
         border-spacing: 0 5px;
         -webkit-font-feature-settings: 'tnum'; /* This is technically redundant */
@@ -65,10 +63,10 @@ thead th { border-bottom: 1px solid #AAAAAA;
 
 td.text { text-align: left; }
 
+span.table-label { padding-top: 8px; } /* to maintain height relative to table header row */
+
 table.booktabs { width: auto;
-                 max-width: 53%;
-                 margin-left: auto;  /* center the table */
-                 margin-right: auto;
+                 margin: 0 auto;
                  border-spacing: 0px;
                  border-top: 2px solid #333333;
                  border-bottom: 2px solid #333333; }
@@ -94,7 +92,7 @@ table.booktabs { width: auto;
                     margin-left: auto;
                     margin-right: auto;
                     margin-top: 1ex;
-                    caption-side: bottom; }
+                    caption-side: top; }
 
 .booktabs tbody tr td.l { text-align: left !important; }
 .booktabs tbody tr td.c { text-align: center !important; }
@@ -106,8 +104,9 @@ article { position: relative;
 section { padding-top: 1rem;
           padding-bottom: 1rem; }
 
-p { font-size: 1.4rem;
-    line-height: 2rem;
+p, ol, ul { font-size: 1.4rem; }
+
+p { line-height: 2rem;
     margin-top: 1.4rem;
     margin-bottom: 1.4rem;
     padding-right: 0;
@@ -119,12 +118,21 @@ blockquote p { font-size: 1.1rem;
 blockquote footer { width: 50%;
                     text-align: right; }
 
-figure { -webkit-margin-start: 0;
-         -webkit-margin-end: 0; }
+ul { width: 45%;
+     -webkit-padding-start: 5%;
+     -webkit-padding-end: 5%;
+     list-style-type: none; }
+
+li { padding: 0.5rem 0; }
+
+figure { max-width: 55%;
+         -webkit-margin-start: 0;
+         -webkit-margin-end: 0;
+         margin-bottom: 3em; }
 
 figcaption { float: right;
              clear: right;
-             margin-right: 18.5%;
+             margin-right: -48%;
              margin-top: 0;
              margin-bottom: 0;
              font-size: 1.0rem;
@@ -134,7 +142,7 @@ figcaption { float: right;
 
 figure.fullwidth figcaption { margin-right: 24%; }
 
-a { color: #222;
+a { color: #111;
     text-decoration: none;
     border-bottom: 1px solid #777;
     padding-bottom: 1px; }
@@ -152,6 +160,15 @@ img { max-width: 100%; }
                          vertical-align: baseline;
                          position: relative; }
 
+.table-caption { float:right;
+                 clear:right;
+                 margin-right: -60%;
+                 width: 50%;
+                 margin-top: 0;
+                 margin-bottom: 0;
+                 font-size: 1.0rem;
+                 line-height: 1.6; }
+
 .sidenote-number { counter-increment: sidenote-counter; }
 
 .sidenote-number:after, .sidenote:before { content: counter(sidenote-counter) " ";
@@ -161,9 +178,8 @@ img { max-width: 100%; }
 
 .sidenote-number:after { content: counter(sidenote-counter);
                          font-size: 0.9rem;
-                         top: -0.4rem; }
-
-.sidenote-number:after { left: 0.1rem; }
+                         top: -0.5rem;
+                         left: 0.1rem; }
 
 .sidenote:before { content: counter(sidenote-counter) ". ";
                    position: absolute;
@@ -174,17 +190,18 @@ img { max-width: 100%; }
                    -ms-transform: translateX(-100%) translateX(-0.25rem);
                    transform: translateX(-100%) translateX(-0.25rem); }
 
-p, footer, pre.code { width: 55%; }
+p, footer, div.table-wrapper { width: 55%; }
 
-@media screen and (max-width: 600px) { p, footer, pre.code { width: 65%; }
-                                       blockquote p, blockquote footer { width: 60%; }}
-@media screen and (max-width: 400px) { p, footer, pre.code { width: 90%; }
+@media screen and (max-width: 760px) { p, footer { width: 90%; }
+                                       pre.code { width: 87.5%; }
+                                       ul { width: 85%; }
+                                       figure { max-width: 90%; }
+                                       figcaption, figure.fullwidth figcaption { margin-right: 0%; }
                                        blockquote p, blockquote footer { width: 90%; }}
 
 .sans { font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; }
 
 .code { font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-        color: #222;
         font-size: 1.125rem;
         line-height: 1.6; }
 
@@ -192,19 +209,44 @@ h1 .code, h2 .code, h3 .code { font-size: 0.80em; }
 
 .marginnote .code, .sidenote .code { font-size: 1rem; }
 
-pre.code { padding: 0 0 0 2em;
+pre.code { width: 52.5%;
+           padding-left: 2.5%;
            overflow-x: scroll; }
 
-.fullwidth { max-width: 95%; }
-
-@media screen and (max-width: 600px) { .sidenote, .marginnote { width: 35%;
-                                                                margin-right: -45%; }}
-@media screen and (max-width: 400px) { pre.code { padding: 0; }
-                                       .sidenote-number:after { display: none; }
-                                       .sidenote, .marginnote { width: 50%;
-                                                                margin: 0.5em 0 0.5em 1.6em; }}
-@media screen and (max-width: 300px) { .sidenote, .marginnote { margin-right: 0; }}
-
+.fullwidth { max-width: 90%; }
 
 span.newthought { font-variant: small-caps;
                   font-size: 1.2em; }
+
+input.margin-toggle { display: none; }
+
+label.sidenote-number { display: inline; }
+
+label.margin-toggle:not(.sidenote-number) { display: none; }
+
+@media (max-width: 760px) { label.margin-toggle:not(.sidenote-number) { display: inline; }
+                            .sidenote, .marginnote { display: none; }
+                            .margin-toggle:checked + .sidenote,
+                            .margin-toggle:checked + .marginnote { display: block;
+                                                                   float: left;
+                                                                   left: 1rem;
+                                                                   clear: both;
+                                                                   width: 95%;
+                                                                   margin: 1rem 2.5%;
+                                                                   vertical-align: baseline;
+                                                                   position: relative; }
+                            label { cursor: pointer; }
+                            pre.code { width: 90%;
+                                       padding: 0; }
+                            .table-caption { display: block;
+                                             float: right;
+                                             clear: both;
+                                             width: 98%;
+                                             margin-top: 1rem;
+                                             margin-bottom: 0.5rem;
+                                             margin-left: 1%;
+                                             margin-right: 1%;
+                                             vertical-align: baseline;
+                                             position: relative; }
+                            table, table.booktabs { width: 85%; }
+                            img { width: 100%; } }
