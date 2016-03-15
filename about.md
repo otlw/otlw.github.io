@@ -16,4 +16,5 @@ Built on top of the Ethereum blockchain **otlw** draws multiple validated assess
 ### Education
 We believe that education is a universal human right and shouldn't be limited by location or finances. This system of assessment, universal and decentralized, will provide the foundation for a truly open educational institution.
 
-### Team
+### Whereabouts
+We are based globally. And by that we mean we're based in Dubai with a team member in NYC. And we were founded in Nairobi, Kenya. If you're in anywhere around we'd love to meet up. Just drop us an email.
