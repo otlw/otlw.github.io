@@ -5,7 +5,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-03-15T12:45:48-04:00</updated>
+<updated>2016-03-15T13:34:01-04:00</updated>
 <id>/</id>
 <author>
   <name>Jared Pereira</name>
@@ -34,7 +34,7 @@
 &lt;p&gt;The chief example of this is in our hierarchical tag based data structure. We didn’t want to make an assumptions at all about what a user might want to get assessed. So the solution was just have an arbitrary structure for linking data, and all meaning to emerge as needed. Think of our tags like a hashtag, they can quickly arise to assume any meaning, and anyone can create them.&lt;/p&gt;
 
 &lt;h2 id=&quot;community-around-data&quot;&gt;Community around data&lt;/h2&gt;
-&lt;p&gt;But hashtags generally don’t make sense if you’re the only one using them, and in the same way, tags lack meaning if you are the only one that possesses it. We encourage people to leverage existing tags, as they’ll offer more accurate assessment, than rolling your own brand new 0-dependency tag. In this way we want to see certain tags emerge as community strongholds, the “canon” version so to speak. A tag would essentially be defined by the community of assessors it contains, with the entire community acting as an arbiter of who gets to be “in-the-club”.&lt;/p&gt;
+&lt;p&gt;However, hashtags generally don’t make sense if you’re the only one using them, and in the same way, tags lack meaning if you are the only one that possesses it. We encourage people to leverage existing tags, as they’ll offer more accurate assessment, rather than rolling your own brand new 0-dependency tag. In this way we want to see certain tags emerge as community strongholds, the “canon” version so to speak. A tag would essentially be defined by the community of assessors it contains, with the entire community acting as an arbiter of who gets to be “in-the-club”.&lt;/p&gt;
 
 &lt;p&gt;In this way tags can build momentum as communities, that other tags can then build off on, as peripheries.&lt;/p&gt;
 
@@ -42,8 +42,13 @@
 
 &lt;p&gt;This presents an opportunity and a challenge. For one, it will be incredibly interesting to see what communities and cultures emerge around the assessment process. But the risk here is the same for any social area, it may be entirely co-opted for something in opposition to its original purpose.&lt;/p&gt;
 
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;h2 id=&quot;whatre-we-going-to-do&quot;&gt;What’re we going to do?&lt;/h2&gt;
+
 &lt;p&gt;Honestly, there may not be very much we can do to deal with this. What emerges will emerge, and we must only assure our technical backend can handle any use case. The little we can do will come in the form of little infusions of culture, trickling down from we as developers carry ourselves and our platform.&lt;/p&gt;
+
+&lt;p&gt;To me this is the most interesting emergent property of the blockchain by far. It allows us to build systems that truly independently can influence, create, and interweave with, social interaction.&lt;/p&gt;
+
+&lt;p&gt;Through our contracts and design we can provide direction and incentive for the emergence of community definitions and meaning, and that’s just incredibly exciting.&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;/articles/building-for-social&quot;&gt;Building for Social&lt;/a&gt; was originally published by Jared Pereira at &lt;a href=&quot;&quot;&gt;otlw.&lt;/a&gt; on March 15, 2016.&lt;/p&gt;</content>
 </entry>
