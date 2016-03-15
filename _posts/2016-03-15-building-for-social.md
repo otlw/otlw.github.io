@@ -24,4 +24,6 @@ We also encourage social consensus through our assessment process. There needs t
 
 This presents an opportunity and a challenge. For one, it will be incredibly interesting to see what communities and cultures emerge around the assessment process. But the risk here is the same for any social area, it may be entirely co-opted for something in opposition to its original purpose.
 
+Conclusion
+---------------
 Honestly, there may not be very much we can do to deal with this. What emerges will emerge, and we must only assure our technical backend can handle any use case. The little we can do will come in the form of little infusions of culture, trickling down from we as developers carry ourselves and our platform.
