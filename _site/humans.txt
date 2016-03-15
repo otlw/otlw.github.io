@@ -1,0 +1,14 @@
+/* TEAM */
+Creator: Jared Pereira
+Contact: jared@otlw.co
+Twitter: 
+Location: 
+                           
+/* THANKS */                           
+Creator of Balzac theme: Cole Townsend
+Twitter: @twnsndco
+
+/* SITE */                         
+Last update: 2016-03-15
+Standards: HTML, SCSS, Jekyll                        
+Software: git

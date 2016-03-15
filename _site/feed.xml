@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">otlw.</title>
+<subtitle type="text">Educate All</subtitle>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2016-03-15T11:27:48-04:00</updated>
+<id>/</id>
+<author>
+  <name>Jared Pereira</name>
+  <uri>/</uri>
+  <email>jared@otlw.co</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Building for Social]]></title>
+  <link rel="alternate" type="text/html" href="/articles/building-for-social" />
+  <id>/articles/building-for-social</id>
+  <published>2016-03-15T00:00:00-04:00</published>
+  <updated>2016-03-15T00:00:00-04:00</updated>
+  <author>
+    <name>Jared Pereira</name>
+    <uri></uri>
+    <email>jared@otlw.co</email>
+  </author>
+  <content type="html">&lt;p&gt;When designing our system we paid very, very close attention to the social constructs it would spawn. It’s essentially the third layer of our application.&lt;/p&gt;
+
+&lt;p&gt;We realized early on, that because of the decentralized nature of what we’re building, we wouldn’t be able to control many things other social applications take for granted. We wouldn’t for example, be able to ban users, or give them accolades. We couldn’t block actions because they were unproductive, or direct efforts to specific areas. We infact wanted it this way, as we are extremely cynical of our, or any single party’s, ability to manage a system sustainably.&lt;/p&gt;
+
+&lt;p&gt;So we shipped this out from the static, slow changing, and developer controlled &lt;strong&gt;back end&lt;/strong&gt; to the fluid, open to all, and community controlled &lt;strong&gt;social layer&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The chief example of this is in our hierarchal tag based data structure.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/articles/building-for-social&quot;&gt;Building for Social&lt;/a&gt; was originally published by Jared Pereira at &lt;a href=&quot;&quot;&gt;otlw.&lt;/a&gt; on March 15, 2016.&lt;/p&gt;</content>
+</entry>
+
+</feed>
