@@ -4,7 +4,7 @@ title: "Secrets of Solidity Part 1: Introduction and the $44k String"
 category: articles
 tags: [ethereum, solidity, development]
 ---
-Welcome readers. In this series we will delve deep within the world solidity and go on a magical journey that is guaranteed to make any developer cringe and any non-developer think I’m insane. This journey will be one of discovery; we will discover not only the secrets of the language known as solidity, but also an appreciation for proper documentation. Speaking of which, I really should comment my code…
+Welcome readers. In this series we will delve deep within the world of solidity and go on a magical journey that is guaranteed to make any developer cringe and any non-developer think I’m insane. This journey will be one of discovery; we will discover not only the secrets of the language known as solidity, but also an appreciation for proper documentation. Speaking of which, I really should comment my code…
 
 _Disclaimer: I bear no ill will to the developers of solidity and appreciate very much what they have a achieved in such a short timeframe and on such a fantastic platform._
 
