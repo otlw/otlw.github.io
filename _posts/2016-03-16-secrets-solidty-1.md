@@ -1,6 +1,6 @@
 ---
 layout: post-no-feature
-title: "Secrets of Solidty Part 1: Introduction and the $44k String"
+title: "Secrets of Solidity Part 1: Introduction and the $44k String"
 category: articles
 tags: [ethereum, solidity, development]
 ---
