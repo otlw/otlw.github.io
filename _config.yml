@@ -29,12 +29,15 @@ links:
   - title: Paper
     url: /paper
 
-  - title: Blog
-    url: /blog
-
   - title: Github
     url: https://github.com/otlw
     external: true
+
+  - title: Blog
+    url: /blog
+
+  - title: Contact
+    url: mailt:jared@otlw.co
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
