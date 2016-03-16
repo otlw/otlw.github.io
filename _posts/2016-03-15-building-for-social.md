@@ -11,13 +11,13 @@ We realized early on, that because of the decentralized nature of what we’re b
 
 So we shipped this out from the static, slow changing, and developer controlled **back end** to the fluid, open to all, and community controlled **social layer**.
 
-The chief example of this is in our hierarchical tag based data structure. We didn’t want to make an assumptions at all about what a user might want to get assessed. So the solution was just have an arbitrary structure for linking data, and all meaning to emerge as needed. Think of our tags like a hashtag, they can quickly arise to assume any meaning, and anyone can create them.
+The chief example of this is in our hierarchical tag based data structure. We didn’t want to make any assumptions at all about what a user might want to get assessed. So the solution was to just have an arbitrary structure for linking data, with meaning emerging as needed. Think of our tags like a hashtag, they can quickly arise to assume any meaning, and anyone can create them.
 
 Community around data
 ------------------------------------------
-However, hashtags generally don’t make sense if you’re the only one using them, and in the same way, tags lack meaning if you are the only one that possesses it. We encourage people to leverage existing tags, as they’ll offer more accurate assessment, rather than rolling your own brand new 0-dependency tag. In this way we want to see certain tags emerge as community strongholds, the “canon” version so to speak. A tag would essentially be defined by the community of assessors it contains, with the entire community acting as an arbiter of who gets to be “in-the-club”.
+However, hashtags generally don’t make sense if you’re the only one using them, and in the same way, tags lack meaning if only you possess them. We encourage people to leverage existing tags, as they’ll offer more accurate assessment, rather than rolling your own brand new 0-dependency tag. In this way we want to see certain tags emerge as community strongholds, the “canon” version so to speak. A tag would essentially be defined by the community of assessors it contains, with the entire community acting as an arbiter of who gets to be “in-the-club”.
 
-In this way tags can build momentum as communities, that other tags can then build off on, as peripheries.
+In this way certain tags can build momentum as communities, with other tags then building off them as peripheries.
 
 We also encourage social consensus through our assessment process. There needs to be a broad public agreement on what certain things mean, so that assessors, when confronted with them, know how to respond.
 
