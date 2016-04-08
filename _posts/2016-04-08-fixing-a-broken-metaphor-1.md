@@ -5,9 +5,9 @@ category: articles
 tags: [epistemology, education, consensus, development]
 ---
 
-_(Editor here, these posts are focusing on education epistemologically rather than socially or societally. We’ll get to addressing those aspects soon enough but if you’ve got any angry rants in the making pertaining to those you may wanna sit on them a tad longer.)_
-
 At its core an education system is designed to model, transfer, and make better the sum knowledge of a society. To do this it has to model some epistemological processes, namely; determining validity of knowledge, cataloguing knowledge within fields, and transferring knowledge between entities. Now while epistemology’s constant kerfuffle may not have settled on a concrete single system to do these things, the broad strokes of such a system are relatively clear.
+
+_(Editor here, these posts are focusing on education epistemologically rather than socially or societally. We’ll get to addressing those aspects soon enough but if you’ve got any angry rants in the making pertaining to those you may wanna sit on them a tad longer.)_
 
 Determining Validity
 --------------------------------------
