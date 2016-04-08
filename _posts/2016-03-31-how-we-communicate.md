@@ -4,9 +4,7 @@ title: "How We're Handling Communication"
 category: articles
 tags: [ethereum, social, dapps, IPFS, communication, development]
 ---
-This'll be a pretty short one. 
-
-Any communication is going to be an absolute nightmare to make. Even integrating an existing platform with our application would bring on a huge new set of problems, and would probably not even fit our use case perfectly.
+This'll be a pretty short one. Any communication is going to be an absolute nightmare to make. Even integrating an existing platform with our application would bring on a huge new set of problems, and would probably not even fit our use case perfectly.
 
 But communication is an integral part of our assessment process. The assessed must be able to clearly put forward their goals, and provide evidence to the assessors. Likewise the assessors must clearly be able to communicate their expectations and tasks. We can’t make any assumptions about the kind of medium necessary, nor the parameters of the conversation, like the number or people, or response speed, or anything really.
 

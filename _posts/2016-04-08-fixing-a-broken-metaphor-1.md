@@ -1,7 +1,6 @@
 ---
 layout: post-no-feature
 title: "Fixing a Broken Metaphor: Part 1"
-description: "Consensus in Education"
 category: articles
 tags: [epistemology, education, consensus, development]
 ---
@@ -31,4 +30,4 @@ Passing it on
 
 Lastly in this whole scheme is how best to get all this valid information into people’s heads. Now, from a theoretical standpoint this problem has so much variance that a single definitive answer is essentially impossible (despite what Ray Kurzweil and the Wachowskis may lead you to believe). Each student will have their own preference for information presentation, a unique relationship with their teacher, preferences for topics, etc, all meaning that the teacher student dynamic must be dealt with on an individual level rather than a purely systemic one. The best way for a system to deal with this then is to presuppose that some form of this information transfer is going to happen and simply create an environment that rewards the best instances of it, while never forcing a teacher to break, in any way, the personalized approach to teaching they take with each student. Not as clear cut as peer consensus (by necessity by our reckoning) but this gives us at least two rules and an axiom for this part of the process to run on.
 
-Now that we’ve got a reasonably good outline of the epistemological system that education emulates we can hold that outline to any specific education system and determine its success in this emulation, and if we (spoilers) find it lacking, figure out how to make it a bit more successful. That in part 2.
+Now that we’ve got a reasonably good outline of the epistemological system that education emulates we can hold that outline to any specific education system and determine its success in this emulation, and if we (**spoilers**) find it lacking, figure out how to make it a bit more successful. That in part 2.
