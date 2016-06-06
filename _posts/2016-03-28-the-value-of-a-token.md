@@ -1,8 +1,6 @@
 ---
-layout: post-no-feature
+layout: post
 title: "The Value of a Token"
-category: articles
-tags: [ethereum, econ, tokens, social, dapps]
 ---
 
 There are two types of currencies, fiat and commodity, and either can be created through ethereum. Fiat, the latin for "let it be done", is regulated, created, and justified by a central authority, and more importantly, has no intrinsic value of its own. Commodity currencies do, and in addition they often are not created or monitored by a single central party as fiat money usually is.
@@ -15,8 +13,8 @@ Of course one can completely disregard it’s value if they want to; it must be 
 
 What we have here is the tokenization of action and experience, fundamental portions of learning. Both being assessed, and assessing, are operating on experiences, on **doing**. Users are essentially able to trade the use of their own learning, for the use of other’s.
 
-A Social Network of Doing
-----------------------------------------
+# A Social Network of Doing
+
 
 I think that's pretty crazy, and I think others will too. We're essentially creating an economy, or maybe even a social network, around action, and we’re hoping it’ll lead to some really interesting interactions.
 

@@ -1,0 +1,11 @@
+- title: home
+  url: /
+
+- title: about
+  url: /about
+
+- title: contact
+  url: mailto:jared@otlw.co
+  
+- title: github
+  url: https://github.com/otlw

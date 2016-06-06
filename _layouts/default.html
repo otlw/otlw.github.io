@@ -6,13 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    
-        <title>Page Does Not Exist...</title>
-    
+    {% if page.title %}
+        <title>{{ page.title }}</title>
+    {% else %}
+        <title>{{ site.name }}</title>
+    {% endif %}
 
-    <meta name="description" content="decentralized social applications">
+    <meta name="description" content="{{ site.description }}">
 
-    
+    {% if site.google_verification %}
+        <meta name="google-site-verification" content="{{ site.google_verify }}">
+    {% endif %}
 
     <link rel="icon" href="/assets/img/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
@@ -22,10 +26,7 @@
 <body>
 
     <div class="wrapper">
-        <p><a class="post__back" href="/">&lt;-- back</a></p>
-<br>
-<p>Sorry this page does not exist... We're probably working on building something to put here. If you have any ideas, <a href="mailto:jared@otlw.co">contact us!</a>
-
+        {{ content }}
     </div>
 
 </body>

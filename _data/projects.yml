@@ -1,0 +1,5 @@
+- name: assess
+  description: A network based system for universal assessment secured through game-theory and accurate through schelling points.
+
+- name: publish
+  description: A simple system for defining documents and their sources, for facilliting the distribution of micropayments.

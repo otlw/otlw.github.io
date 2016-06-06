@@ -1,8 +1,6 @@
 ---
-layout: post-no-feature
+layout: post
 title: "How We're Handling Communication"
-category: articles
-tags: [ethereum, social, dapps, IPFS, communication, development]
 ---
 This'll be a pretty short one. Any communication is going to be an absolute nightmare to make. Even integrating an existing platform with our application would bring on a huge new set of problems, and would probably not even fit our use case perfectly.
 
@@ -10,15 +8,14 @@ But communication is an integral part of our assessment process. The assessed mu
 
 So basically, we’re just not going to deal with that at the start.
 
+# Instead
 
-Instead
-------------------------
 We’re going to pass [IPFS](https://ipfs.io/) hashes back and forth. If you don’t yet know IPFS, it's essentially a decentralized datastore accessed through file hashes and so provides us a reliable way to pass arbitrary data back and forth. And because it is immutable, and we’ll be storing this all publicly, it provides a good concrete way to have a long term testament to which communications occurred.
 
 So assessors and the assessed could conceivably pass back and forth any kind of data, text documents, videos, audio, or even instructions to use some other medium, such as contact details, or links to a chatroom, anything really. It could be from a  text document with instructions, to several links, to specific standard documents with an explanatory video.
 
-Isn’t that dangerous?
-------------------------------
+# Isn’t that dangerous?
+
 Well yes, if they can communicate arbitrarily there’s no reason to stop bribes, threats, or all sorts of other shady behaviors going down. But we will still have a public record of this. So what will emerge is a public standard for what constitutes an appropriate interaction.
 
 These kind of supporting media and tools already exist and we hope to encourage their integration and development. For example something like the existing [Open Badges](http://openbadges.org/) community is a perfect spring board for standards.
