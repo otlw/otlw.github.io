@@ -1,5 +1,6 @@
 ---
-layout: about
+layout: main-page
+title: About Us
 ---
 
 We are a development group building robust decentralized applications on top of emerging technologies such as [Ethereum](https://ethereum.org/) and [IPFS](https://ipfs.io/)
