@@ -8,6 +8,6 @@ otlw-assess is a network based system of assessment. It forms a universal layer 
 The network is completely decentralized and robust, making as few assumptions as possible about assessors, assessments, or goals.
 
 # Our "Lightpaper"
-In our lightpaper we aim to fully describe the design of the our system and its major implications. This is a live document and is a work in progress, so any suggestions or questions can be directed at **jared(at)otlw.co**
+In our lightpaper we aim to fully describe the design of our system and its major implications. This is a live document and is a work in progress, so any suggestions or questions can be directed at **jared(at)otlw.co**
 
 [read it]({{ page.url}}paper)
