@@ -7,12 +7,13 @@
 body {
     color: $color-fg;
     background: $color-bg;
-    font-family: 'Inconsolata', ;
+    font-family: 'Roboto', ;
     font-size: 100%;
     font-weight: 400;
 }
 h1 {
     margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
 }
 p {
     font-size: 1em;
@@ -38,7 +39,6 @@ ul {
     list-style: none;
     li {
         padding: 5px;
-        padding-left: 10px;
         @media screen and (max-width: $br) {
             padding: 10px 0 10px 0;
         }
