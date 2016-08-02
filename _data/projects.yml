@@ -3,3 +3,6 @@
 
 - name: publish
   description: A simple system for defining documents and their sources, for facilliting the distribution of micropayments.
+
+- name: forum
+  description: A DApp for interacting with a Forum smart-contract, supporting replies, micropayments, tags, and citations.
