@@ -3,7 +3,7 @@ layout: page
 title: A decentralized system of assessment
 home: /assess
 ---
-A decentralized assessment platform enables the assessment of items based on the consensus of qualified individuals. It is a way to prove things are valid using people who have been proven (by the system) to know what they’re talking about. Peers are motivated both to be assessed and to be assessors, and are incentivized to be as accurate as possible.
+A decentralized assessment system enables the assessments based on the consensus of qualified individuals. It is a way to prove experiences, such as skills or achievements, are valid using people who have been proven (by the system) to know what they’re talking about. Peers are motivated both to be assessed and to be assessors, and are incentivized to be as accurate as possible.
 
 # Overview
 
@@ -13,7 +13,7 @@ The inputs of all the assessors are given in the form of a signed numerical scor
 
 # The Token
 
-The reward in question here is a token that users can spend to initiate assessments. At least initially, tokens will not be tradable which means the only method users have to earn them is assessing. Conversely in order to assess you must have records on the platform.
+The reward in question here is a token that users can spend to initiate assessments. At least initially, tokens will not be tradable which means the only method users have to earn them is assessing. Conversely in order to assess you must have records in the system.
 
 This forms loop that ensures a constant supply of assessors and assessees earning and spending tokens.
 
