@@ -20,7 +20,7 @@ The reward in question here is a token that users can spend to initiate assessme
 
 To know when to call assessors we need to have an understanding of the relationships between different assessments and skills.
 
-An assessment belongs to a single "tag"; a smart contract with an arbitrary description which can have multiple other tags as parents. These tags store a database of users who have earned them, and hence are qualified to assess. In this way we can move up a tree, pulling first assessors with the most relevant experience.
+An assessment belongs to a single "tag"; a smart contract with an arbitrary description which can have multiple other tags as parents. A parent is any tag more general than the child, building up a **hierarchal ontology** organizing concepts. These tags store a database of users who have earned them, and hence are qualified to assess. In this way we can move up a tree, pulling first assessors with the most relevant experience.
 
 The tag abstraction is extremely versatile, as each has no defined purpose. A tag doesn't have to be a concept or a piece of knowledge, it can serve as a rule set or a modifier. Essentially any goal a user might have can be described through tag dependencies.
 
