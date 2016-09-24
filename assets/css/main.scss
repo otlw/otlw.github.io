@@ -28,7 +28,8 @@ a {
   }
   &:hover {
     color: $color-link;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: #000000 1px dashed; 
   }
   &:active {
     color: $color-link;
