@@ -1,0 +1,73 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Why we built forum and document DApps (and what we learned about smart-contract development)</title><meta name="description" content="Full disclosure: otlw-forum, literally the only project we’ve launched to date, is essentially a throwaway side-project. But we hope it’ll…"><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Why we built forum and document DApps (and what we learned about smart-contract development)</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Full disclosure: otlw-forum, literally the only project we’ve launched to date, is essentially a throwaway side-project. But we hope it’ll…
+</section>
+<section data-field="body" class="e-content">
+<section name="94ae" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="a038" id="a038" class="graf graf--h3 graf--leading graf--title">Why we built forum and document DApps (and what we learned about smart-contract development)</h3><p name="d1be" id="d1be" class="graf graf--p graf-after--h3">Full disclosure:<a href="http://github.com/otlw/forum" data-href="http://github.com/otlw/forum" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"> otlw-forum</a>, literally the only project we’ve launched to date, is essentially a throwaway side-project. But we hope it’ll at least be a <em class="markup--em markup--p-em">useful</em> throwaway, both for us and the community.</p><p name="6cd2" id="6cd2" class="graf graf--p graf-after--p">We built it, over the course of about 2 weeks, to serve two purposes. Firstly and most importantly, we needed the experience. At the scale we’re trying to build applications you can’t exactly just jump in head first. We needed to try things out in the realm of DApp development and figure out what works and what doesn’t. This is especially true since we’re dealing with two immature technologies here, ethereum and IPFS, and there aren’t very many well developed walkthroughs for building apps with either. (Though by the way, if you’re interested in us writing some tutorials or such, let us know and we’ll try and cook something up).</p><p name="9eb3" id="9eb3" class="graf graf--p graf-after--p">Anyways, instead of tackling a front-end for <a href="https://github.com/otlw/otlw-assess/" data-href="https://github.com/otlw/otlw-assess/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">our assessment platform</a> right from the get go, we first decided to branch out a bit and build a document management smart contract and forum DApp. We wanted something small, related to our core focus of education, useful, and most importantly modular and extendable.</p><p name="1779" id="1779" class="graf graf--p graf-after--p">Which brings us to our second purpose. We want to show the community how powerful simple smart-contracts can be, and that, yes, smart contracts can exist that are both useful and actually usable. Our document contract is barely above 100 LOC and the forum contract that builds on it is just 89. We can’t really take all the credit for that sadly, Ethereum is just damn powerful. Together those contracts enable a full fledged forum experience that allows creators to be rewarded and codes relationships between any kind of files or documents.</p><p name="aeb4" id="aeb4" class="graf graf--p graf-after--p">This kind of contract design, small and entity oriented, is where ethereum really shines. You can build little blocks of code which describe entities, and then let them loose to interact with each other. We do the same thing in our major platform with tags, and assessments as our entities. Admittedly there’s a lot more code there, but the approach is still the same, and in our humble opinion, its quite a powerful one.</p><p name="a38a" id="a38a" class="graf graf--p graf-after--p">So it’s really a shame that we see so little in terms of development this way. We’ve got a ton of really cool high profile projects but not so many small scale, comprehensible released projects that you can play around with.</p><p name="0b4d" id="0b4d" class="graf graf--p graf-after--p">So we put all of it together in a little project and released a DApp that allows for document publishing using IPFS, in a neat little forum package. It allows for tags and replies. Which on its own doesn’t sound like much, but builds on a very simple and extendable format.</p><p name="4133" id="4133" class="graf graf--p graf-after--p">Replies, for example, are simply an implementation of Sources, as described in the<a href="https://github.com/otlw/publish/blob/master/document.sol" data-href="https://github.com/otlw/publish/blob/master/document.sol" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"> Document contract</a>. It’s a paradigm that can allow for academic publications, blog posts, or even film credits, or editorial work. Its simple but powerful.</p><p name="97ae" id="97ae" class="graf graf--p graf-after--p">We hoped that even if no one really latched onto the Forum as a user base, it would stand as a testament to what small scale ethereum development can do, and perhaps inspire people to extend it.</p><p name="8dca" id="8dca" class="graf graf--p graf-after--p">It’s fairly straightforward to, for example, modify the frontend to render tags more similarly to a subreddit, or add post ranking based on comments and dates as a metric. This could all be done solely in JS and maybe some modification of the HTML+CSS frontend. It ain’t hard.</p><p name="f486" id="f486" class="graf graf--p graf-after--p">If you wanted to get into the meat of things, the smart contracts, you could build a system to manage upvotes and downvotes for documents, even allowing them to trigger actions at certain levels, such as releasing funds if downvoted too far, or perhaps building a locked forum, that only allows individuals to be voted in. Again these would all be fairly straightforward to build in just a few lines of code.</p><p name="1dea" id="1dea" class="graf graf--p graf-after--p">The point here is that smart contract and DApp development on Ethereum doesn’t need to work like it has. We don’t need token sales, fancy press releases, and high-profile partnerships. We need normal people to realize they can interact with this technology. Hell, if two 18 year olds can do it, so can you. All we need in the Ethereum ecosystem, are powerful, useful, and versatile, applications.</p><p name="3ff7" id="3ff7" class="graf graf--p graf-after--p graf--trailing">We’re working on them, it’d be great if you could join us.</p></div></div></section>
+</section>
+<footer><p class="p-tags">Tagged in <a href="https://medium.com/tag/ethereum" class="p-tag">Ethereum</a>, <a href="https://medium.com/tag/blockchain" class="p-tag">Blockchain</a>, <a href="https://medium.com/tag/development" class="p-tag">Development</a></p><p>By <a href="https://medium.com/@jrdprr" class="p-author h-card">Jared Pereira</a> on <a href="https://medium.com/p/1b3bfae93123"><time class="dt-published" datetime="2016-08-04T19:02:39.236Z">August 4, 2016</time></a>.</p><p><a href="https://medium.com/@jrdprr/why-we-built-forum-and-document-dapps-and-what-they-say-about-smart-contract-development-1b3bfae93123" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on November 12, 2017.</p></footer></article>
+
+</body></html>

@@ -1,41 +1,7 @@
----
-layout: default
----
-
-{% include header.html %}
-
-<div class = "portfolio">
-  <h1>Our Master Plan:</h1>
-  <ul>
-    <li>A radically new system of education that is open, fair, and accessible to all.</li>
-    <li>That forms the basis of a society that shares these qualities.</li>
-    <li>That recognizes and utilizes the social and community foundations of academia.</li>
-    <li>That values and promotes the creation, use, and learning of knowledge above all.</li>
-  </ul>
-</div>
-
-<div class="portfolio">
-    <h1>Our Projects:</h1>
-    <ul>
-        {% for projects in site.data.projects %}
-        <li>
-            <a href="{{ site.url }}/{{ projects.name }}"> otlw-{{ projects.name}}</a>: {{projects.description}}
-        </li>
-        {% endfor %}
-    </ul>
-</div>
-
-
-<div class="blog">
-    <h1><a href="https://blog.otlw.co/" style="color: #000000;">Blog Posts:</a></h1>
-    <ul>
-        {% for post in site.data.posts %}
-        <li>
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
-<div>
-  <h1><a href="https://gitter.im/otlw">Join us at our gitter</a></h1>
-</div>
+<body style="margin: auto; max-width: 900px; padding: 10px; line-height:1.6; background-color: #FBFBFB; font-size:1.4em; color: #202020; font-family: 'Source Serif Pro', serif;">
+    <h1>You're probably looking for <a href="https://fathom.network">fathom.network</a> </h1>
+    <p>It's where the project building a new education system lives now</p>
+    <p>You can browse through the <a href="/archive" >archive</a></p>
+    <p>The OTLW moniker may come as my (Jared Pereira's) personal blog.</p>
+    <h3>Thanks for checking us out!</h3>
+</body>
